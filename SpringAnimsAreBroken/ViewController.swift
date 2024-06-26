@@ -18,8 +18,8 @@ class MyViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        brokenView.border(1, color: .red)
-        animView.border(1, color: .blue)
+        brokenView.border(3, color: .red)
+        animView.border(3, color: .blue)
         
         animView.frame = CGRect(x: view.frame.midX - 120, y: view.frame.midY - 180, width: 240, height: 360)
         
